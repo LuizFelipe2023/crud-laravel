@@ -1,0 +1,76 @@
+/* Estilos gerais */
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 100px; /* Aumentado para dar espaço para a navbar */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-create {
+    margin-bottom: 20px;
+}
+
+/* Estilos para os botões */
+.btn-group > a.btn {
+    margin-right: 5px;
+}
+
+/* Estilo para os botões dentro de .btn-group */
+.btn-group > a.btn.btn-warning {
+    margin-left: 5px;
+}
+
+/* Adicionando margem entre os botões */
+.list-group-item .btn {
+    margin-right: 5px;
+}
+
+/* Estilo para o botão "Cancelar" na view de edição */
+.btn-secondary {
+    margin-right: 5px;
+}
+
+/* Estilo para o botão "Salvar" na view de edição */
+.btn-primary {
+    margin-right: 5px;
+}
+
+/* Adicionando margem entre os botões na view de criação */
+.btn-primary, .btn-secondary {
+    margin-right: 5px;
+}
+
+/* Estilo para o botão "Excluir" na view de detalhes */
+.btn-danger {
+    margin-right: 5px;
+}
+
+/* Estilo para o botão "Voltar" na view de detalhes */
+.btn-secondary {
+    margin-right: 5px;
+}
+
+/* Estilos adicionais para a lista de posts na view de index */
+.list-group-item {
+    margin-bottom: 10px;
+}
+
+/* Estilos adicionais para o formulário na view de criação */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilos adicionais para os botões dentro do formulário na view de criação e edição */
+.form-group button {
+    margin-right: 5px;
+}
